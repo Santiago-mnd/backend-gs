@@ -8,6 +8,58 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Bloqueado</h1>
+    <h1>Estos son todos los servicios:</h1>
+
+    <h2>Productos:</h2>
+    <div class="container">
+      <div class="content">
+        <p>Obtener todos los productos:</p>
+        <p><strong>GET:</strong> url/api/products</p>
+        <span>Requiere JWT</span>
+      </div>
+
+      <div class="content">
+        <p>Agregar un nuevo producto:</p>
+        <p><strong>POST:</strong> url/api/products/new-product</p>
+        <span>Requiere JWT</span>
+      </div>
+
+      <div class="content">
+        <p>Actualizar producto:</p>
+        <p><strong>PUT:</strong> url/api/products/:id</p>
+        <span>Requiere JWT</span>
+      </div>
+
+      <div class="content">
+        <p>Borrar producto:</p>
+        <p><strong>DEL:</strong> url/api/products/:id</p>
+        <span>Requiere JWT</span>
+      </div>
+    </div>
+
+    <hr />
+
+    <h2>Plazos:</h2>
+    <div class="container">
+      <div class="content">
+        <p>Obtener todos los plazos:</p>
+        <p><strong>GET:</strong> url/api/deadlines</p>
+        <span>Requiere JWT</span>
+      </div>
+      <div class="content">
+        <p>Agregar un nuevo deadline:</p>
+        <p><strong>POST:</strong> url/api/deadlines/new-deadline</p>
+        <span>Requiere JWT</span>
+      </div>
+    </div>
+
+    <h2>Usuarios:</h2>
+    <div class="container">
+      <div class="content">
+        <p>Agregar un nuevo usuario:</p>
+        <p><strong>POST:</strong> url/api/auth/new-user</p>
+        <span>Requiere página web principal.</span>
+      </div>
+    </div>
   </body>
 </html>
